@@ -70,6 +70,30 @@ export default function Home() {
       image: `${assetBase}/projects/project-paperunfold.webp`,
       link: "https://paperunfold.id/",
     },
+    {
+      title: "E-LEARNING PLATFORM",
+      year: "2024",
+      category: "Web Application",
+      description:
+        "Learning management system built with React and MUI component library. Converted high-fidelity Figma prototypes into production-ready components, implementing MUI theming for consistent styling. Built reusable course cards, tables, forms, and dashboards with responsive grid.",
+      image: `${assetBase}/projects/project-elearning.webp`,
+    },
+    {
+      title: "INGIGS",
+      year: "2023",
+      category: "Community Platform",
+      description:
+        "Community platform built with React functional components and hooks-based state management. Implemented dynamic routing, search/filter logic, and responsive layouts using Tailwind utilities. Optimized performance with code splitting and lazy loading.",
+      image: `${assetBase}/projects/project-ingigs.webp`,
+    },
+    {
+      title: "ONE DAY TO WRITE",
+      year: "2021-2022",
+      category: "Course Registration & Management System",
+      description:
+        "A full-stack Laravel application for managing writing course registrations and transactions. Built with customer-facing registration portal and admin dashboard for course management. Features automated enrollment workflows, email notifications, and comprehensive backend tools for managing users and transactions.",
+      image: `${assetBase}/projects/project-onedaytowrite.webp`,
+    },
   ];
 
   return (
