@@ -298,23 +298,16 @@ export default function Home() {
                     className={`order-1 ${idx % 2 === 0 ? "md:order-1" : "md:order-2"}`}
                   >
                     <div
-                      className="aspect-4/3 rounded-2xl overflow-hidden"
+                      className="overflow-hidden"
                       style={{
-                        backgroundImage: project.image.startsWith(
-                          "linear-gradient",
-                        )
-                          ? project.image
-                          : `url(${project.image})`,
-                        backgroundSize: project.image.startsWith(
-                          "linear-gradient",
-                        )
-                          ? "cover"
-                          : "contain",
+                        aspectRatio: "16 / 9",
+                        backgroundImage: `url(${project.image})`,
+                        backgroundSize: "cover",
                         backgroundPosition: "center",
                         backgroundRepeat: "no-repeat",
                       }}
                     >
-                      <div className="w-full h-full group-hover:scale-110 transition-transform duration-700" />
+                      <div className="w-full h-full" />
                     </div>
                   </div>
 
